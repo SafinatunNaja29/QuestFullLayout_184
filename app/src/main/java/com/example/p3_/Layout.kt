@@ -29,7 +29,7 @@ import androidx.compose.ui.unit.sp
 @Preview(showBackground = true)
 @Composable
 fun Layout(modifier: Modifier = Modifier) {
-    Column (modifier = Modifier.fillMaxSize()) {
+    Column (modifier = modifier.fillMaxSize()) {
         TampilanHeader()
         DetailMahasiswa(
             judul = "nama", isi = "Safinatun Naja"
